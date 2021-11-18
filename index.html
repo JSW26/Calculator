@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="4">
+                <input id="input" type="text" placeholder="수식을 입력하세요">
+            </td>
+        </tr>
+        <tr>
+            <td id="output" colspan="4">
+                <output id="result"></output>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" onclick="reset()">AC</td>
+            <td onclick="backspace()">DEL</td>
+            <td onclick="add('/')">÷</td>
+        </tr>
+        <tr>
+            <td onclick="add(7)">7</td>
+            <td onclick="add(8)">8</td>
+            <td onclick="add(9)">9</td>
+            <td onclick="add('*')">×</td>
+        </tr>
+        <tr>
+            <td onclick="add(4)">4</td>
+            <td onclick="add(5)">5</td>
+            <td onclick="add(6)">6</td>
+            <td onclick="add('-')">−</td>
+        </tr>
+        <tr>
+            <td onclick="add(1)">1</td>
+            <td onclick="add(2)">2</td>
+            <td onclick="add(3)">3</td>
+            <td onclick="add('+')">+</td>
+        </tr>
+        <tr>
+            <td onclick="add(0)" colspan="2">0</td>
+            <td onclick="add('.')">.</td>
+            <td onclick="cal()">=</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

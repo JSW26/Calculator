@@ -1,0 +1,24 @@
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 220px;
+  height: 270px;
+  padding: 0;
+}
+input {
+  border: none;
+  font-size: large;
+}
+
+input:focus {
+  outline: none;
+}
+td {
+  padding: 0;
+  width: 62.5px;
+}
+#output {
+  text-align: left;
+  height: 37.5px;
+  font-size: large;
+}
